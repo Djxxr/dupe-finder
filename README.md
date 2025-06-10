@@ -96,8 +96,6 @@ This section describes how to set up the project to run from source code.
 
 To build the standalone `dupe-finder.exe` from the source code, simply run the included build script. This will create the executable inside the `/dist` folder.
 
-```bash
-
 build.bat
 
 ---
@@ -126,3 +124,5 @@ Once a release is created, pre-built versions of Dupe-Finder will be available f
 ### **License**
 
 This project is distributed under the MIT License. See the `LICENSE` file for more information.
+
+```bash
