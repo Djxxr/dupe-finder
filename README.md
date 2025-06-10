@@ -97,4 +97,32 @@ This section describes how to set up the project to run from source code.
 To build the standalone `dupe-finder.exe` from the source code, simply run the included build script. This will create the executable inside the `/dist` folder.
 
 ```bash
+
 build.bat
+
+---
+
+### **For End-Users (The Easy Way)**
+
+Once a release is created, pre-built versions of Dupe-Finder will be available for download.
+
+1.  Navigate to the **[Releases](https://github.com/djxxr/dupe-finder/releases)** page of this repository.
+2.  Download the latest `dupe-finder.exe` from the "Assets" section.
+3.  Run the downloaded file. No installation is needed.
+
+---
+
+### **Technology Stack**
+
+- **Python**: Core programming language.
+- **Rich**: For all styled terminal output (tables, colors, progress bars).
+- **Questionary**: For building the interactive TUI menus and prompts.
+- **psutil**: For cross-platform detection of system disk drives.
+- **PyFiglet**: For the startup ASCII art banner.
+- **PyInstaller**: For packaging the application into a single executable.
+
+---
+
+### **License**
+
+This project is distributed under the MIT License. See the `LICENSE` file for more information.
