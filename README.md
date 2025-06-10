@@ -33,7 +33,6 @@
 - [Getting Started for Developers](#getting-started-for-developers)
   - [Prerequisites](#prerequisites)
   - [Setup and Run](#setup-and-run)
-- [Building the Executable](#building-the-executable)
 - [For End-Users (The Easy Way)](#for-end-users-the-easy-way)
 - [Technology Stack](#technology-stack)
 - [License](#license)
