@@ -92,21 +92,13 @@ This section describes how to set up the project to run from source code.
 
 ---
 
-### **Building the Executable**
-
-To build the standalone `dupe-finder.exe` from the source code, simply run the included build script. This will create the executable inside the `/dist` folder.
-
-build.bat
-
----
-
 ### **For End-Users (The Easy Way)**
 
-Once a release is created, pre-built versions of Dupe-Finder will be available for download.
+To get started, you need to build the executable from the source code.
 
-1.  Navigate to the **[Releases](https://github.com/djxxr/dupe-finder/releases)** page of this repository.
-2.  Download the latest `dupe-finder.exe` from the "Assets" section.
-3.  Run the downloaded file. No installation is needed.
+1.  Run the `build.bat` script located in the main project folder. This will automatically process the source code and create the executable file.
+2.  Once the script is finished, you will find `dupe-finder.exe` inside the newly created `/dist` folder.
+3.  Run `dupe-finder.exe` to start the application. No installation is needed.
 
 ---
 
@@ -124,5 +116,3 @@ Once a release is created, pre-built versions of Dupe-Finder will be available f
 ### **License**
 
 This project is distributed under the MIT License. See the `LICENSE` file for more information.
-
----
