@@ -1,0 +1,11 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Virtual environment folder
+venv/
+/venv/
+
+# IDE/Editor specific folders
+.vscode/
+.idea/
